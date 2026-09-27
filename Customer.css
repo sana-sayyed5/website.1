@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #087e8b;
+}
+
+header {
+    background: #131921;
+    color: white;
+    text-align: left;
+    padding: 25px 60px;
+}
+
+nav {
+    background: #232f3e;
+    padding: 15px 60px;
+    text-align: left;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.help {
+    text-align: left;
+    padding: 40px 12%;
+    color: white;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.box {
+    background: white;
+    color: #333;
+    padding: 20px;
+    min-height: 90px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+.box h3 {
+    font-size: 20px;
+}
+
+button {
+    background: #ff9900;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
