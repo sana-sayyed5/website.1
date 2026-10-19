@@ -135,14 +135,11 @@ h2 {
     font-size: 17px;
 }
 
-nav {
-    background: #232f3e;
-    padding: 15px 60px;
-    text-align: left;
-}
-
-nav a {
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
     color: white;
-    text-decoration: none;
-    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
