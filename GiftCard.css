@@ -135,3 +135,14 @@ h2 {
     font-size: 17px;
 }
 
+nav {
+    background: #232f3e;
+    padding: 15px 60px;
+    text-align: left;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
